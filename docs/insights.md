@@ -1,3 +1,13 @@
+# 📝 Published Analysis
+This project's findings were published on Medium:
+**[When Spotify Bought a Football Club's Soul — Was It Worth It?](https://medium.com/@vermaprateek1109/when-spotify-bought-a-football-clubs-soul-was-it-worth-it-31272e4820a4)**
+
+Published: May 12, 2026 | Gies College of Business, UIUC
+Co-authors: Prateek Verma, Abdul Ali, Juan Zapata,
+Samyak Pokharna, Ammratansh Ghildyal
+
+---
+
 # Key Insights — Spotify × FC Barcelona Partnership Sentiment
 
 ## Overall Sentiment Distribution
