@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="230" viewBox="0 0 980 230">
+  <rect width="980" height="230" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="490" y="28" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#1a1a2e" text-anchor="middle" font-weight="bold">Spotify × FC Barcelona — Sentiment Analysis Pipeline</text>
+
+  <!-- Phase 1: Data Collection (Reddit orange) -->
+  <rect x="15" y="55" width="160" height="90" rx="10" fill="#FF4500"/>
+  <text x="95" y="77" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#FFD0C0" text-anchor="middle" font-weight="bold">PHASE 1</text>
+  <text x="95" y="96" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Data Collection</text>
+  <text x="95" y="113" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#FFD0C0" text-anchor="middle">pullpush.io API</text>
+  <text x="95" y="129" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#FFD0C0" text-anchor="middle">10,000+ posts</text>
+  <text x="95" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">Reddit · r/soccer · r/fcbarcelona</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="176" y1="100" x2="198" y2="100" stroke="#999" stroke-width="2"/>
+  <polygon points="195,96 207,100 195,104" fill="#999"/>
+
+  <!-- Phase 2: Text Preprocessing (amber) -->
+  <rect x="208" y="55" width="160" height="90" rx="10" fill="#CC7700"/>
+  <text x="288" y="77" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#FFE8AA" text-anchor="middle" font-weight="bold">PHASE 2</text>
+  <text x="288" y="96" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Preprocessing</text>
+  <text x="288" y="113" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#FFE8AA" text-anchor="middle">NLTK · Regex</text>
+  <text x="288" y="129" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#FFE8AA" text-anchor="middle">langdetect</text>
+  <text x="288" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">Dedup · Filter · Tokenize</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="369" y1="100" x2="391" y2="100" stroke="#999" stroke-width="2"/>
+  <polygon points="388,96 400,100 388,104" fill="#999"/>
+
+  <!-- Phase 3: RoBERTa (purple — highlighted) -->
+  <rect x="400" y="42" width="180" height="116" rx="10" fill="#7B2FBE"/>
+  <rect x="400" y="42" width="180" height="116" rx="10" fill="none" stroke="#B06EFF" stroke-width="2"/>
+  <text x="490" y="65" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#DDB6FF" text-anchor="middle" font-weight="bold">PHASE 3</text>
+  <text x="490" y="84" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="bold">RoBERTa Model</text>
+  <text x="490" y="102" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#DDB6FF" text-anchor="middle">HuggingFace Transformers</text>
+  <text x="490" y="119" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#DDB6FF" text-anchor="middle">3-Class Classification</text>
+  <text x="490" y="136" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#DDB6FF" text-anchor="middle">Pos · Neu · Neg</text>
+  <text x="490" y="179" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">+18% vs VADER baseline</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="581" y1="100" x2="603" y2="100" stroke="#999" stroke-width="2"/>
+  <polygon points="600,96 612,100 600,104" fill="#999"/>
+
+  <!-- Phase 4: Trend Analysis (Barcelona blue) -->
+  <rect x="612" y="55" width="160" height="90" rx="10" fill="#004D98"/>
+  <text x="692" y="77" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#99C2FF" text-anchor="middle" font-weight="bold">PHASE 4</text>
+  <text x="692" y="96" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Trend Analysis</text>
+  <text x="692" y="113" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#99C2FF" text-anchor="middle">Pandas · Time-Series</text>
+  <text x="692" y="129" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#99C2FF" text-anchor="middle">Event Annotation</text>
+  <text x="692" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">UCL matches · Campaign dates</text>
+
+  <!-- Arrow 4→5 -->
+  <line x1="773" y1="100" x2="795" y2="100" stroke="#999" stroke-width="2"/>
+  <polygon points="792,96 804,100 792,104" fill="#999"/>
+
+  <!-- Phase 5: Visualization (Spotify green) -->
+  <rect x="804" y="55" width="160" height="90" rx="10" fill="#1DB954"/>
+  <text x="884" y="77" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#AAFFD0" text-anchor="middle" font-weight="bold">PHASE 5</text>
+  <text x="884" y="96" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Visualization</text>
+  <text x="884" y="113" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#AAFFD0" text-anchor="middle">Matplotlib · Seaborn</text>
+  <text x="884" y="129" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#AAFFD0" text-anchor="middle">Insights &amp; Reports</text>
+  <text x="884" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">Trends · Heatmaps · Distribution</text>
+
+  <!-- Footer -->
+  <text x="490" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#CCCCCC" text-anchor="middle">Python · RoBERTa · HuggingFace · Reddit API · Pandas · Matplotlib · Seaborn</text>
+</svg>
